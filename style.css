@@ -125,3 +125,41 @@ footer p{
     font-size: 12px;
 }
 
+@media only screen and (max-width: 768px) {
+    .half-width {
+        width: 90%;
+        float: none;
+        margin: 0 auto;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .half-width img {
+        width: 80%;
+        margin-left: 0;
+    }
+
+    section {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .top-banner, .dream-area, .experience-area {
+        background-size: cover;
+        background-position: center;
+    }
+
+    ul {
+        padding-left: 20px;
+        text-align: left;
+    }
+
+    .link-button {
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+    .profile-text p {
+        font-size: 13px;
+    }
+}
