@@ -1,0 +1,23 @@
+body {
+  font-family: 'Libertinus Sans', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+
+
+
+.name-highlight{
+    color: orange;
+}
+
+.half-width{
+    width: 43%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+
+}
+.half-width img{
+    width: 90%;
+}
